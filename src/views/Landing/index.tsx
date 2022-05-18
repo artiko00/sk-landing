@@ -1,9 +1,8 @@
 import { AnchorAtom, BoxContainer, BrandAtom, ButtonAtom, ButtonBigAtom, ButtonFlavorAtom, ContainerAtom, FlexContainer, ImgAtom, ImgAtomTwo, NumberAtom, RowAtom, SectionAtom, SectionGlassAtom, SmallAtom, TextAtom, TitleAtom } from '../../atoms'
-import casperIcon from '../../assets/casperIcon.svg'
-import casperHero from '../../assets/heroImage.png'
+import casperIcon from '../../assets/heroIMG.png'
+import casperHero from '../../assets/heroIMG.png'
 import { useState } from 'react'
 import { supabase } from '../../supabase'
-import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
 import { InputAtom } from '../../atoms/InputAtom'
 
 export function Landing() {
@@ -28,10 +27,10 @@ export function Landing() {
         .insert([
           { email: email }
         ])
-      alert("Thanks for signing up!")
+      alert("Gracias por confirmar tu correo")
     }
     else {
-      alert("Please enter a valid email")
+      alert("Ingrese un correo valido")
     }
     emailSetter("")
   }
@@ -40,27 +39,22 @@ export function Landing() {
     <ContainerAtom>
       <RowAtom>
         <BrandAtom>
-          <img src={casperIcon} alt="logo casper" width="30" />
-          <p>Casper Swap</p>
+          <img src="https://www.kaufmann.cl/o/kaufmann-general-theme/images/kaufmann/kaufmann.svg" alt="Logo Kauffman" width="200" />
+          
         </BrandAtom>
       </RowAtom>
 
       <SectionAtom>
-        <TitleAtom>Next-generation DeFi Built on the Casper Blockchain</TitleAtom>
-        <SmallAtom>Coming soon</SmallAtom>
         <ImgAtom>
-          <img src={casperHero} alt="logo casper" width="300" />
+          <img src={casperHero} alt="logo casper" width="500" />
+          
         </ImgAtom>
+        <TitleAtom>Expondremos nuestro nuevo ecosistema y responderemos todas sus inquietudes sobre contratos actuales y futuros</TitleAtom>
         <ImgAtomTwo>
           <InputAtom onWrite={onWrite} value={email} />
-          <ButtonAtom onSubmit={Submit}>Sign up for updates</ButtonAtom>
+          <ButtonAtom onSubmit={Submit}>Inscribirme</ButtonAtom>
         </ImgAtomTwo>
 
-        <TextAtom>
-          <AnchorAtom href="https://twitter.com/casperswap" target="_blank"><FaTwitter size="3rem" /></AnchorAtom>
-          <AnchorAtom href="https://twitter.com/casperswap" target="_blank"><FaDiscord size="3rem" /></AnchorAtom>
-          <AnchorAtom href="https://twitter.com/casperswap" target="_blank"><FaTelegram size="3rem" /></AnchorAtom>
-        </TextAtom>
       </SectionAtom>
     </ContainerAtom>
   )
