@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 margin: 1rem;
 gap:1em;
-font-size:2em;
+font-size:1.3em;
 color:rgba(255,255,255,0.5);
 `
 export const ImgAtom = ({ children }: { children: ReactNode }) => {

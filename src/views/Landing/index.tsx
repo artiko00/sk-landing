@@ -50,7 +50,7 @@ export function Landing() {
             <p>25.05</p>
             <p>2022</p>
           </div>
-          <div style={{borderLeft:"1px solid white",borderRight:"1px solid white", padding:"1rem"}}>
+          <div style={{borderLeft:"1px solid white",borderRight:"1px solid white", padding:".5em"}}>
             <NameAtom>Smart <span> Kontract</span></NameAtom>
           </div>
           <div>

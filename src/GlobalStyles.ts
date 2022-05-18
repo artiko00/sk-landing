@@ -49,7 +49,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*{
+	padding: 0;
+}
 body { 
   min-height: 100vh;
   min-width: 100vw;
