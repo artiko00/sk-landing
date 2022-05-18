@@ -49,7 +49,7 @@ export function Landing() {
           <img src={casperHero} alt="logo casper" width="500" />
           
         </ImgAtom>
-        <TitleAtom>Expondremos nuestro nuevo ecosistema y responderemos todas sus inquietudes sobre contratos actuales y futuros</TitleAtom>
+        <TextAtom>Expondremos nuestro nuevo ecosistema y responderemos todas sus inquietudes sobre contratos actuales y futuros</TextAtom>
         <ImgAtomTwo>
           <InputAtom onWrite={onWrite} value={email} />
           <ButtonAtom onSubmit={Submit}>Inscribirme</ButtonAtom>
