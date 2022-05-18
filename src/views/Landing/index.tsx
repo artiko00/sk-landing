@@ -47,15 +47,15 @@ export function Landing() {
       <SectionAtom>
         <ImgAtom>
           <div>
-            <p>25.05</p>
-            <p>2022</p>
+            <p style={{borderBottom:"1px solid white",padding:".3em"}}>25.05</p>
+            <p style={{padding:".3em"}}>2022</p>
           </div>
           <div style={{borderLeft:"1px solid white",borderRight:"1px solid white", padding:".5em"}}>
-            <NameAtom>Smart <span> Kontract</span></NameAtom>
+            <NameAtom>Smart Kontract</NameAtom>
           </div>
           <div>
-            <p>10:00 am</p>
-            <p>Miércoles</p>
+            <p style={{borderBottom:"1px solid white",padding:".3em"}}>10:00 am</p>
+            <p style={{padding:".3em"}}>Miércoles</p>
           </div>
 
         </ImgAtom>

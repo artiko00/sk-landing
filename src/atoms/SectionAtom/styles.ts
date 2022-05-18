@@ -8,4 +8,5 @@ export const SectionStyled = styled.div`
     text-align: center;
     padding: 10px;
     margin-top:2em;
+    
 `
