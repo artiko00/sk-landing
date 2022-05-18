@@ -6,8 +6,8 @@ export const ImgStyled = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 1rem;
-gap:1em;
+margin: .3rem;
+gap:.3em;
 font-size:1.3em;
 color:rgba(255,255,255,0.5);
 `
