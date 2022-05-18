@@ -4,6 +4,7 @@ import casperHero from '../../assets/heroIMG.png'
 import { useState } from 'react'
 import { supabase } from '../../supabase'
 import { InputAtom } from '../../atoms/InputAtom'
+import { NameAtom } from '../../atoms/NameAtom'
 
 export function Landing() {
 
@@ -45,8 +46,18 @@ export function Landing() {
 
       <SectionAtom>
         <ImgAtom>
-          <img src={casperHero} alt="logo casper" width="300" />
-          
+          <div>
+            <p>25.05.2022</p>
+            <p>2022</p>
+          </div>
+          <div style={{borderLeft:"1px solid white",borderRight:"1px solid white", padding:"1rem"}}>
+            <NameAtom>Smart <span> Kontract</span></NameAtom>
+          </div>
+          <div>
+            <p>10:00 am</p>
+            <p>Miércoles</p>
+          </div>
+
         </ImgAtom>
         <TextAtom>Expondremos nuestro nuevo ecosistema y responderemos todas sus inquietudes sobre contratos actuales y futuros</TextAtom>
         <ImgAtomTwo>
