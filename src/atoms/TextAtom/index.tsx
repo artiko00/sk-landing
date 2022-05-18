@@ -5,7 +5,7 @@ const TextStyled = styled.p`
   color:#FFF;
   display: flex;
   justify-content: center;
-  gap: .5rem;
+  gap: .5em;
   `
 export const TextAtom = ({ children }: { children: ReactNode }) => {
     return (

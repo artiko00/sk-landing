@@ -47,7 +47,7 @@ export function Landing() {
       <SectionAtom>
         <ImgAtom>
           <div>
-            <p>25.05.2022</p>
+            <p>25.05</p>
             <p>2022</p>
           </div>
           <div style={{borderLeft:"1px solid white",borderRight:"1px solid white", padding:"1rem"}}>

@@ -53,7 +53,12 @@ table {
 body { 
   min-height: 100vh;
   min-width: 100vw;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,1));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1));
   font-family: 'Baloo 2', cursive;
+}
+
+#root { 
+  height: 100%;
+  width: 100%;
 }
 `;
