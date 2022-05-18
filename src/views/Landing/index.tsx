@@ -39,14 +39,13 @@ export function Landing() {
     <ContainerAtom>
       <RowAtom>
         <BrandAtom>
-          <img src="https://www.kaufmann.cl/o/kaufmann-general-theme/images/kaufmann/kaufmann.svg" alt="Logo Kauffman" width="200" />
-          
+          <img src="https://www.kaufmann.cl/o/kaufmann-general-theme/images/kaufmann/kaufmann.svg" alt="Logo Kauffman" width="150" />
         </BrandAtom>
       </RowAtom>
 
       <SectionAtom>
         <ImgAtom>
-          <img src={casperHero} alt="logo casper" width="500" />
+          <img src={casperHero} alt="logo casper" width="300" />
           
         </ImgAtom>
         <TextAtom>Expondremos nuestro nuevo ecosistema y responderemos todas sus inquietudes sobre contratos actuales y futuros</TextAtom>
